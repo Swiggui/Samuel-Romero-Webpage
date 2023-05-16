@@ -1,0 +1,16 @@
+.socialIcon{
+    width: 40px;
+}
+
+.icons{
+    display: inline-block;
+    margin: 10px;
+}
+
+#socialNetworks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}

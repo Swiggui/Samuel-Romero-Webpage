@@ -1,0 +1,21 @@
+.nav-link{
+    font-weight: 400 !important;
+    color: white;
+    text-align: center;
+}
+
+.navbar-brand{
+    max-width: 80%;
+ }
+
+#logo{
+    width: 50px;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #contactButton{
+        margin-top: 15px;
+    }
+}

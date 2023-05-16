@@ -1,0 +1,79 @@
+main{
+    display: flex;
+    padding: 5vw;
+    flex-direction: column;
+}
+
+.feature{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    width: 33.333%;
+    padding: 5vw 1vw;
+    align-items: center;
+}
+
+.feature img {
+    max-width: 20%;
+    margin: 0 auto;
+}
+
+#features{
+    display: block;
+    
+    
+}
+
+#banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+#bannerTitle{
+  margin-top: -15vw;
+  display: block;
+  text-align: center;
+  color: white;
+  max-width: 90%;
+  font-size: 40px;
+}
+
+#bannerText{
+    font-size: 75px !important;
+}
+     
+#bgVideo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -1;
+  filter: opacity(50%);
+}
+
+#companyName{
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.feature{
+    display: block;
+    width: 100%;
+    padding: 10vw;
+}
+
+#bannerText{
+  font-size: 30px !important;
+}
+
+#bannerText{
+    font-size: 50px !important;
+  }
+}
+

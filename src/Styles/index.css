@@ -1,0 +1,16 @@
+*{
+  font-family: "Urbanist";
+  color: white;
+}
+
+body{
+  background-color: #1b1d1f !important;
+}
+
+h1{
+  text-align: center;
+}
+
+#header{
+  z-index: 1;
+}
