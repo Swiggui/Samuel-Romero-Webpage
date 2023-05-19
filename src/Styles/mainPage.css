@@ -1,7 +1,11 @@
 main{
     display: flex;
-    padding: 5vw;
+    padding: 0 5vw;
     flex-direction: column;
+}
+
+h1{
+  margin: 5vh 0;
 }
 
 .feature{
@@ -9,7 +13,7 @@ main{
     flex-direction: column;
     text-align: center;
     width: 33.333%;
-    padding: 5vw 1vw;
+    padding: 0 1vw;
     align-items: center;
 }
 
@@ -20,8 +24,6 @@ main{
 
 #features{
     display: block;
-    
-    
 }
 
 #banner{
@@ -33,15 +35,16 @@ main{
 }
 
 #bannerTitle{
-  margin-top: -15vw;
   display: block;
   text-align: center;
   color: white;
   max-width: 90%;
   font-size: 40px;
+  margin-top: -15vh;
 }
 
 #bannerText{
+    display: block;
     font-size: 75px !important;
 }
      
@@ -59,21 +62,44 @@ main{
     font-weight: 600;
 }
 
+#projects{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#showMoreButton{
+  width: 40%;
+  margin: 50px auto;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
 
 @media only screen and (max-width: 768px) {
 
-.feature{
-    display: block;
-    width: 100%;
-    padding: 10vw;
-}
-
-#bannerText{
-  font-size: 30px !important;
-}
-
-#bannerText{
-    font-size: 50px !important;
+  .feature{
+      display: block;
+      width: 100%;
+      padding: 10vw;
   }
+  
+  #bannerText{
+    font-size: 30px !important;
+  }
+  
+  #bannerText{
+      font-size: 50px !important;
+    }
+
+  #companyName{
+    font-size: 30px;
+  }
+
+  #showMoreButton{
+    width: 80%;
+  }
+
 }
 

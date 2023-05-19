@@ -1,3 +1,8 @@
+#header{
+    height: 15vh;
+    width: 100%;
+}
+
 .nav-link{
     font-weight: 400 !important;
     color: white;

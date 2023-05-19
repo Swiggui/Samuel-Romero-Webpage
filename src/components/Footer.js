@@ -8,7 +8,7 @@ import '../Styles/footerStyles.css';
 
 const Footer = () => {
     return(
-        <div>
+        <div id='footer'>
             <div>
                 <Nav.Link href='mailto:samuel@samuel-romero.com'>samuel@samuel-romero.com</Nav.Link>
             </div>
