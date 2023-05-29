@@ -1,4 +1,5 @@
 import imageProject1 from '../Media/Images/Project.png';
+import imageProject2 from '../Media/Images/Project1.jpg';
 
 
 const ProjectsData = [
@@ -10,7 +11,7 @@ const ProjectsData = [
     },
     {
         Title: "Project 2",
-        ImagePath: imageProject1,
+        ImagePath: imageProject2,
         Description: "Project Description",
         Link: "https://www.youtube.com"
     },

@@ -1,9 +1,10 @@
-import React from "react";
+import Samuel from '../Media/Images/Samuel.png';
 
 const AboutSamuel = () => {
     return(
         <div id="aboutSamuel">
-            <h1>Hola</h1>
+            <h1>AboutSamuel</h1>
+            <img src={Samuel} alt='Picture of Samuel Romero'/>
         </div>
     );
 

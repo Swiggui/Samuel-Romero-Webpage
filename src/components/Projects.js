@@ -15,11 +15,12 @@ const Projects = () => {
                     className="project"
                     key={index}
                     onClick={() => openLink(project.Link)}
+                    style={{backgroundImage: `url(${project.ImagePath})`}}
                 >
-                    <img 
-                        src={project.ImagePath} 
-                        alt='ProjectImage'                                                
-                    />
+                    
+                    
+                    
+                    
                         <div 
                             className="projectInfo"
                         >
