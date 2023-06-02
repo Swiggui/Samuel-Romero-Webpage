@@ -28,10 +28,12 @@
     z-Index: 1;
   }
 
+  .project-info:hover{
+    cursor: pointer;
+  }
 
-  @media only screen and (min-width: 1024px){
+  @media only screen and (min-width: 1201px){
     .project-info:hover{
-      cursor: pointer;
       opacity: 1;
       -webkit-animation: fadeIn 0.25s;
       -moz-animation: fadeIn 0.25s;

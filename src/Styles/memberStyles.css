@@ -1,0 +1,9 @@
+.member-info{
+    flex-direction: column;
+    display: inline-block;
+    width: 70%;
+}
+
+.member img{
+    width: 30%;
+}
