@@ -1,0 +1,31 @@
+article{
+    display: flex;
+}
+
+#samuel-profile{
+    display: inline-block;
+    width: 70%;
+    padding: 80px 5vw;
+    font-size: larger
+}
+
+#samuel-photo{
+    width: 500px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1400px) {
+    article{
+        flex-direction: column;
+    }
+
+    #samuel-photo{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #samuel-profile{
+        width: 100%;
+        text-align: center;
+    }
+}

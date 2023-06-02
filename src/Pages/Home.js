@@ -8,13 +8,13 @@ import { Button } from 'react-bootstrap';
 const Home = () => {
     return(
         <div>
-            <video autoPlay loop muted disablePictureInPicture id="bgVideo">
+            <video autoPlay loop muted disablePictureInPicture id="bg-video">
                 <source src={bgVideo} type="video/mp4"/>
             </video>
             <div id="banner">        
-                <div id="bannerTitle">
-                    <span id="companyName">Samuel Romero &amp; Co.</span>
-                    <span id="bannerText">Music &amp; Sound for Films and Videogames</span>
+                <div id="banner-title">
+                    <span id="company-name">Samuel Romero &amp; Co.</span>
+                    <span id="banner-text">Music &amp; Sound for Films and Videogames</span>
                 </div>
             </div>
             <main>
@@ -40,7 +40,7 @@ const Home = () => {
             <section id="projects">
                 <h1>Our Work</h1>
                 <Projects/>
-                <Button variant='outline-light' id='showMoreButton'>Show More</Button>
+                <Button variant='outline-light' id='show-more-button'>Show More</Button>
             </section>
         </div>
     );

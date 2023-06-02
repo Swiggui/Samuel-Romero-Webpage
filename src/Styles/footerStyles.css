@@ -1,4 +1,8 @@
-.socialIcon{
+footer{
+    margin-top: 50px;
+}
+
+.social-icon{
     width: 40px;
 }
 
@@ -7,11 +11,7 @@
     margin: 10px;
 }
 
-#footer{
-    margin-top: 50px;
-}
-
-#socialNetworks{
+#social-networks{
     display: flex;
     align-items: center;
     justify-content: center;

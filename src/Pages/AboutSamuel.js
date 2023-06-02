@@ -1,11 +1,16 @@
 import Samuel from '../Media/Images/Samuel.png';
+import SamuelProfile from '../Media/Text/SamuelProfile';
+import '../Styles/AboutSamuel.css';
 
 const AboutSamuel = () => {
     return(
-        <div id="aboutSamuel">
+        <main>
             <h1>AboutSamuel</h1>
-            <img src={Samuel} alt='Picture of Samuel Romero'/>
-        </div>
+            <article>
+                <img src={Samuel} alt='Samuel Romero' id='samuel-photo'/>
+                <SamuelProfile/>
+            </article>
+        </main>
     );
 
 }

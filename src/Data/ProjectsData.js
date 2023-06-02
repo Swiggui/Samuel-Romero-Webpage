@@ -1,29 +1,25 @@
-import imageProject1 from '../Media/Images/Project.png';
-import imageProject2 from '../Media/Images/Project1.jpg';
-
-
 const ProjectsData = [
     {
         Title: "Banby",
-        ImagePath: imageProject1,
+        ImagePath: require('../Media/Images/ProjectsImages/Project1.png'),
         Description: "Project Description",
         Link: "https://www.youtube.com"
     },
     {
         Title: "Project 2",
-        ImagePath: imageProject2,
+        ImagePath: require('../Media/Images/ProjectsImages/Project2.jpg'),
         Description: "Project Description",
         Link: "https://www.youtube.com"
     },
     {
         Title: "Project 3",
-        ImagePath: imageProject1,
+        ImagePath: require('../Media/Images/ProjectsImages/Project3.jpg'),
         Description: "Project Description",
         Link: "https://www.youtube.com"
     },
     {
         Title: "Project 4",
-        ImagePath: imageProject1,
+        ImagePath: require('../Media/Images/ProjectsImages/Project4.jpg'),
         Description: "Project Description",
         Link: "https://www.youtube.com"
     },

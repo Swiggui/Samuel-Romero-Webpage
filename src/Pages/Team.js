@@ -1,8 +1,11 @@
+import Member from "../components/Member";
+
 const Credits = () => {
     return(
-        <div id="aboutSamuel">
-            <h1>Hola</h1>
-        </div>
+        <main>
+            <h1>Meet our team!</h1>
+            <Member/>
+        </main>
     );
 }
 export default Credits;

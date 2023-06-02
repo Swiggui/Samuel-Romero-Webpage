@@ -8,22 +8,22 @@ import '../Styles/footerStyles.css';
 
 const Footer = () => {
     return(
-        <div id='footer'>
+        <footer>
             <div>
                 <Nav.Link href='mailto:samuel@samuel-romero.com'>samuel@samuel-romero.com</Nav.Link>
             </div>
-            <div id='socialNetworks'>
+            <div id='social-networks'>
                 <Nav.Link className='icons' href='https://youtube.com/@samuelromero7203'>
-                    <img className='socialIcon' src={logoYouTube} alt='YouTube Channel'/>
+                    <img className='social-icon' src={logoYouTube} alt='YouTube Channel'/>
                 </Nav.Link>
                 <Nav.Link className='icons' href='https://on.soundcloud.com/gejvM'>
-                    <img className='socialIcon' src={logoSoundcloud} alt='SoundCloud Channel'/>
+                    <img className='social-icon' src={logoSoundcloud} alt='SoundCloud Channel'/>
                 </Nav.Link>
                 <Nav.Link className='icons' href='https://www.instagram.com/samuelromerotorres/'>
-                    <img className='socialIcon' src={logoInstagram} alt='Instagram Profile'/>                    
+                    <img className='social-icon' src={logoInstagram} alt='Instagram Profile'/>                    
                 </Nav.Link>
             </div> 
-        </div>
+        </footer>
     );
 
 }

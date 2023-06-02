@@ -22,14 +22,14 @@ const Projects = () => {
                     
                     
                         <div 
-                            className="projectInfo"
+                            className="project-info"
                         >
                             <h4>{project.Title}</h4>
                             <p>{project.Description}</p>
                             <Button 
                                 variant="outline-light w-50 py-3" 
                                 target="blank" 
-                                href={project.Link}>Watch</Button>
+                                >Watch</Button>
                         </div>
                 </div>
             ))}
