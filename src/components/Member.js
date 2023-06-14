@@ -1,4 +1,5 @@
 import TeamData from "../Data/TeamData";
+import Social from "../components/Social";
 import '../Styles/memberStyles.css';
 
 const Member = () => {
@@ -13,6 +14,16 @@ const Member = () => {
                         <h2>{member.Name}</h2>
                         <h3>{member.Role}</h3>
                         <p>{member.MiniBio}</p>
+                        {
+                            member.SocialNetworks.map((social, index) => (
+                                    
+                                    <Social
+                                        name = {social.name}
+                                        link = {social.link}
+                                    />
+                                )
+                            )
+                        }
                     </article>
                     <div>
                         <iframe
@@ -27,5 +38,6 @@ const Member = () => {
         </div>
     );
 }
+
 
 export default Member;

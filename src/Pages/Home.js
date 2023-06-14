@@ -40,7 +40,10 @@ const Home = () => {
             <section id="projects">
                 <h1>Our Work</h1>
                 <Projects/>
-                <Button variant='outline-light' id='show-more-button'>Show More</Button>
+                <Button 
+                    variant='outline-light' 
+                    href='Credits'
+                    id='show-more-button'>Show More</Button>
             </section>
         </div>
     );
