@@ -9,7 +9,7 @@ const Member = () => {
                 <div 
                     className="member"
                     key={index}>
-                    <img src={member.PhotoPath}/>
+                    <img className="member-photo" src={member.PhotoPath} alt={"A smile of " + member.Name}/>
                     <article className="member-info">
                         <h2>{member.Name}</h2>
                         <h3>{member.Role}</h3>
@@ -31,7 +31,8 @@ const Member = () => {
                             allow="autoplay"
                             src={member.MainProject}
                             width="75%"
-                            height={500}/>
+                            height={500}
+                            title={"Featured project of " + member.Name}/>
                     </div>
                 </div>
             ))}

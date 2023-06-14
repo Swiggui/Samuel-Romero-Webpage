@@ -11,7 +11,9 @@ const TeamData = [
             {name: 'Facebook',
             link: 'https://www.facebook.com'},
             {name: 'YouTube',
-            link: ''}
+            link: ''},
+            {name: 'SoundCloud',
+            link: 'https://www.soundcloud.com'}
         ]
     },
     {
