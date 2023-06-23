@@ -9,30 +9,32 @@ const Member = () => {
                 <div 
                     className="member"
                     key={index}>
-                    <img className="member-photo" src={member.PhotoPath} alt={"A smile of " + member.Name}/>
+                    <img className="member-photo " src={require(`../Media/Images/TeamImages/${member.PhotoPath}`)} alt={"A smile of " + member.Name}/>
                     <article className="member-info">
-                        <h2>{member.Name}</h2>
-                        <h3>{member.Role}</h3>
+                        <h2 className="fw-bold">{member.Name}</h2>
+                        <h3 className="fw-light">{member.Role}</h3>
                         <p>{member.MiniBio}</p>
-                        {
-                            member.SocialNetworks.map((social, index) => (
-                                    
-                                    <Social
-                                        name = {social.name}
-                                        link = {social.link}
-                                    />
-                                )
-                            )
-                        }
                     </article>
                     <div>
                         <iframe
-                            className="media"
+                            className="member-project"
                             allow="autoplay"
                             src={member.MainProject}
                             width="75%"
                             height={500}
                             title={"Featured project of " + member.Name}/>
+                    </div>
+                    <div className="member-social-networks">
+                    {
+                        member.SocialNetworks.map((social, index) => (
+
+                                    <Social
+                                        name = {social.name}
+                                        link = {social.link}
+                                    />
+                            )
+                        )
+                    }
                     </div>
                 </div>
             ))}

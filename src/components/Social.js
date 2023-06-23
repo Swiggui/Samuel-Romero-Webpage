@@ -8,11 +8,11 @@ const Social = ({name, link}) => {
         return null;
     }
     return(
-        <ui className="member-social-network">
-            <Nav.Link className='member-social-icons' href={link}>
+        
+            <Nav.Link className='member-social-network' href={link}>
                 <img className='social-icon' src={require('../Media/Icons/' + name.toLowerCase() + '.png')} alt={name + ' logo'}/>
             </Nav.Link>
-        </ui>
+        
     );
 }
 
