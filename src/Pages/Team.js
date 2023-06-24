@@ -25,7 +25,7 @@ const Credits = () => {
                                 allow="autoplay"
                                 src={member.MainProject}
                                 width="75%"
-                                height={500}
+                                
                                 title={"Featured project of " + member.Name} />
                         </div>
                         <div className="member-social-networks">

@@ -16,11 +16,7 @@ const Projects = () => {
                     key={index}
                     onClick={() => openLink(project.Link)}
                     style={{backgroundImage: `url(${project.ImagePath})`}}
-                >
-                    
-                    
-                    
-                    
+                >                    
                         <div 
                             className="project-info"
                         >
