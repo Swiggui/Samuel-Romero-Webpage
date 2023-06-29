@@ -1,3 +1,7 @@
+.member-data{
+    display: flex;
+    align-items: center;
+}
 .member-info{
     flex-direction: column;
     display: inline-block;
@@ -43,6 +47,9 @@
     }
 }
 @media only screen and (max-width: 1024px) {
+    .member-data{
+        flex-direction: column;
+    }
     .member{
         display: flex;
         flex-direction: column;
