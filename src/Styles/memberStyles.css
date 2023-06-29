@@ -3,13 +3,13 @@
     align-items: center;
 }
 .member-info{
-    flex-direction: column;
     display: inline-block;
     width: 70%;
     padding: 50px !important;
 }
 
 .member-photo{
+    display: inline-block;
     width: 30%;
     height: 500px;
     object-fit: cover;
@@ -37,11 +37,10 @@
 }
 
 @media only screen and (min-width: 1025px) {
-    .member-photo{
+    .member-data{
         
         
     }
-
     .member-project{
         min-width: 700px;
     }
